@@ -4,3 +4,6 @@ value = "awesome"
 
 [[commands]]
 package = "go"
+
+[[commands]]
+package = "hci"
