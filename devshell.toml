@@ -1,0 +1,6 @@
+[[env]]
+name = "MY_ENV"
+value = "awesome"
+
+[[commands]]
+package = "go"
