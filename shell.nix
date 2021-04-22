@@ -1,7 +1,7 @@
 { system ? builtins.currentSystem }:
 let
   src = 
-    fetchTarball "https://github.com/hercules-ci/devshell/archive/6ad3532e6596ea52b071cd44745f81308d076d24.tar.gz";
+    fetchTarball "https://github.com/hercules-ci/devshell/archive/345e2d56212ad4b87dc53d67fcb917232b8d1611.tar.gz";
   devshell = import src { inherit system; };
 in
 devshell.fromTOML ./devshell.toml
